@@ -1,0 +1,91 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you?",
+                "Are you there?",
+                "Good Day",
+                "Good morning",
+                "Hello",
+                "Good evening"
+            ],
+            "responses": [
+                "Hey! :)",
+                "Hey there",
+                "Hello, thanks for visiting us",
+                "Hey, how can I help you?",
+                "Hey, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns":[
+                "Bye",
+                "Goodbye",
+                "See you later"
+            ],
+            "responses":[
+                "Bye",
+                "Thank you for visiting us",
+                "Have a great day! :)"
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns":[
+                "Thanks",
+                "Thank you!",
+                "Thanks a lot!",
+                "Thank you so much",
+                "Thanks a ton",
+                "That's really helpful"
+            ],
+            "responses":[
+                "It's my pleasure",
+                "Thank you for choosing us!",
+                "Anytime :)",
+                "Glad to help :)"
+            ]
+        },
+        {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      }
+    ]
+}
